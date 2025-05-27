@@ -1,0 +1,303 @@
+# Class: BotSuggestedPromptMetadata
+
+Defined in: [WAProto/index.d.ts:1615](https://github.com/Riders004/Tv/blob/3d6aaf6f3efb499dc9d0ca82bb24083bb45a8478/WAProto/index.d.ts#L1615)
+
+Represents a BotSuggestedPromptMetadata.
+
+## Implements
+
+- [`IBotSuggestedPromptMetadata`](../interfaces/IBotSuggestedPromptMetadata.md)
+
+## Constructors
+
+### new BotSuggestedPromptMetadata()
+
+> **new BotSuggestedPromptMetadata**(`properties`?): [`BotSuggestedPromptMetadata`](BotSuggestedPromptMetadata.md)
+
+Defined in: [WAProto/index.d.ts:1621](https://github.com/Riders004/Tv/blob/3d6aaf6f3efb499dc9d0ca82bb24083bb45a8478/WAProto/index.d.ts#L1621)
+
+Constructs a new BotSuggestedPromptMetadata.
+
+#### Parameters
+
+##### properties?
+
+[`IBotSuggestedPromptMetadata`](../interfaces/IBotSuggestedPromptMetadata.md)
+
+Properties to set
+
+#### Returns
+
+[`BotSuggestedPromptMetadata`](BotSuggestedPromptMetadata.md)
+
+## Properties
+
+### selectedPromptIndex
+
+> **selectedPromptIndex**: `number`
+
+Defined in: [WAProto/index.d.ts:1627](https://github.com/Riders004/Tv/blob/3d6aaf6f3efb499dc9d0ca82bb24083bb45a8478/WAProto/index.d.ts#L1627)
+
+BotSuggestedPromptMetadata selectedPromptIndex.
+
+#### Implementation of
+
+[`IBotSuggestedPromptMetadata`](../interfaces/IBotSuggestedPromptMetadata.md).[`selectedPromptIndex`](../interfaces/IBotSuggestedPromptMetadata.md#selectedpromptindex)
+
+***
+
+### suggestedPrompts
+
+> **suggestedPrompts**: `string`[]
+
+Defined in: [WAProto/index.d.ts:1624](https://github.com/Riders004/Tv/blob/3d6aaf6f3efb499dc9d0ca82bb24083bb45a8478/WAProto/index.d.ts#L1624)
+
+BotSuggestedPromptMetadata suggestedPrompts.
+
+#### Implementation of
+
+[`IBotSuggestedPromptMetadata`](../interfaces/IBotSuggestedPromptMetadata.md).[`suggestedPrompts`](../interfaces/IBotSuggestedPromptMetadata.md#suggestedprompts)
+
+## Methods
+
+### toJSON()
+
+> **toJSON**(): `object`
+
+Defined in: [WAProto/index.d.ts:1697](https://github.com/Riders004/Tv/blob/3d6aaf6f3efb499dc9d0ca82bb24083bb45a8478/WAProto/index.d.ts#L1697)
+
+Converts this BotSuggestedPromptMetadata to JSON.
+
+#### Returns
+
+`object`
+
+JSON object
+
+***
+
+### create()
+
+> `static` **create**(`properties`?): [`BotSuggestedPromptMetadata`](BotSuggestedPromptMetadata.md)
+
+Defined in: [WAProto/index.d.ts:1634](https://github.com/Riders004/Tv/blob/3d6aaf6f3efb499dc9d0ca82bb24083bb45a8478/WAProto/index.d.ts#L1634)
+
+Creates a new BotSuggestedPromptMetadata instance using the specified properties.
+
+#### Parameters
+
+##### properties?
+
+[`IBotSuggestedPromptMetadata`](../interfaces/IBotSuggestedPromptMetadata.md)
+
+Properties to set
+
+#### Returns
+
+[`BotSuggestedPromptMetadata`](BotSuggestedPromptMetadata.md)
+
+BotSuggestedPromptMetadata instance
+
+***
+
+### decode()
+
+> `static` **decode**(`reader`, `length`?): [`BotSuggestedPromptMetadata`](BotSuggestedPromptMetadata.md)
+
+Defined in: [WAProto/index.d.ts:1660](https://github.com/Riders004/Tv/blob/3d6aaf6f3efb499dc9d0ca82bb24083bb45a8478/WAProto/index.d.ts#L1660)
+
+Decodes a BotSuggestedPromptMetadata message from the specified reader or buffer.
+
+#### Parameters
+
+##### reader
+
+Reader or buffer to decode from
+
+`Uint8Array`\<`ArrayBufferLike`\> | `Reader`
+
+##### length?
+
+`number`
+
+Message length if known beforehand
+
+#### Returns
+
+[`BotSuggestedPromptMetadata`](BotSuggestedPromptMetadata.md)
+
+BotSuggestedPromptMetadata
+
+#### Throws
+
+If the payload is not a reader or valid buffer
+
+#### Throws
+
+If required fields are missing
+
+***
+
+### decodeDelimited()
+
+> `static` **decodeDelimited**(`reader`): [`BotSuggestedPromptMetadata`](BotSuggestedPromptMetadata.md)
+
+Defined in: [WAProto/index.d.ts:1669](https://github.com/Riders004/Tv/blob/3d6aaf6f3efb499dc9d0ca82bb24083bb45a8478/WAProto/index.d.ts#L1669)
+
+Decodes a BotSuggestedPromptMetadata message from the specified reader or buffer, length delimited.
+
+#### Parameters
+
+##### reader
+
+Reader or buffer to decode from
+
+`Uint8Array`\<`ArrayBufferLike`\> | `Reader`
+
+#### Returns
+
+[`BotSuggestedPromptMetadata`](BotSuggestedPromptMetadata.md)
+
+BotSuggestedPromptMetadata
+
+#### Throws
+
+If the payload is not a reader or valid buffer
+
+#### Throws
+
+If required fields are missing
+
+***
+
+### encode()
+
+> `static` **encode**(`message`, `writer`?): `Writer`
+
+Defined in: [WAProto/index.d.ts:1642](https://github.com/Riders004/Tv/blob/3d6aaf6f3efb499dc9d0ca82bb24083bb45a8478/WAProto/index.d.ts#L1642)
+
+Encodes the specified BotSuggestedPromptMetadata message. Does not implicitly [verify](BotSuggestedPromptMetadata.md#verify) messages.
+
+#### Parameters
+
+##### message
+
+[`IBotSuggestedPromptMetadata`](../interfaces/IBotSuggestedPromptMetadata.md)
+
+BotSuggestedPromptMetadata message or plain object to encode
+
+##### writer?
+
+`Writer`
+
+Writer to encode to
+
+#### Returns
+
+`Writer`
+
+Writer
+
+***
+
+### encodeDelimited()
+
+> `static` **encodeDelimited**(`message`, `writer`?): `Writer`
+
+Defined in: [WAProto/index.d.ts:1650](https://github.com/Riders004/Tv/blob/3d6aaf6f3efb499dc9d0ca82bb24083bb45a8478/WAProto/index.d.ts#L1650)
+
+Encodes the specified BotSuggestedPromptMetadata message, length delimited. Does not implicitly [verify](BotSuggestedPromptMetadata.md#verify) messages.
+
+#### Parameters
+
+##### message
+
+[`IBotSuggestedPromptMetadata`](../interfaces/IBotSuggestedPromptMetadata.md)
+
+BotSuggestedPromptMetadata message or plain object to encode
+
+##### writer?
+
+`Writer`
+
+Writer to encode to
+
+#### Returns
+
+`Writer`
+
+Writer
+
+***
+
+### fromObject()
+
+> `static` **fromObject**(`object`): [`BotSuggestedPromptMetadata`](BotSuggestedPromptMetadata.md)
+
+Defined in: [WAProto/index.d.ts:1683](https://github.com/Riders004/Tv/blob/3d6aaf6f3efb499dc9d0ca82bb24083bb45a8478/WAProto/index.d.ts#L1683)
+
+Creates a BotSuggestedPromptMetadata message from a plain object. Also converts values to their respective internal types.
+
+#### Parameters
+
+##### object
+
+Plain object
+
+#### Returns
+
+[`BotSuggestedPromptMetadata`](BotSuggestedPromptMetadata.md)
+
+BotSuggestedPromptMetadata
+
+***
+
+### toObject()
+
+> `static` **toObject**(`message`, `options`?): `object`
+
+Defined in: [WAProto/index.d.ts:1691](https://github.com/Riders004/Tv/blob/3d6aaf6f3efb499dc9d0ca82bb24083bb45a8478/WAProto/index.d.ts#L1691)
+
+Creates a plain object from a BotSuggestedPromptMetadata message. Also converts values to other types if specified.
+
+#### Parameters
+
+##### message
+
+[`BotSuggestedPromptMetadata`](BotSuggestedPromptMetadata.md)
+
+BotSuggestedPromptMetadata
+
+##### options?
+
+`IConversionOptions`
+
+Conversion options
+
+#### Returns
+
+`object`
+
+Plain object
+
+***
+
+### verify()
+
+> `static` **verify**(`message`): `null` \| `string`
+
+Defined in: [WAProto/index.d.ts:1676](https://github.com/Riders004/Tv/blob/3d6aaf6f3efb499dc9d0ca82bb24083bb45a8478/WAProto/index.d.ts#L1676)
+
+Verifies a BotSuggestedPromptMetadata message.
+
+#### Parameters
+
+##### message
+
+Plain object to verify
+
+#### Returns
+
+`null` \| `string`
+
+`null` if valid, otherwise the reason why it is not
